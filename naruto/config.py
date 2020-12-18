@@ -5,7 +5,7 @@ import heroku3
 from git import Repo
 from pyrogram import filters
 from naruto import logging, logbot
-from . import versions
+
 
 _REPO = Repo()
 _LOG = logging.getLogger(__name__)
